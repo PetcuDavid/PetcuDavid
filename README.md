@@ -6,24 +6,33 @@ Second Year **Economic Cybernetics** Student at ASE Bucharest, building at the i
 
 ## What I'm working on
 
-### [AurumBit: Generative Design Engine](https://github.com/Puiutmic/AurumBit-Generative-Engine) (Work In Progress)
-A bridge between algorithmic geometry and luxury design. I'm building a Python-based engine (Blender API) that translates natural language prompts into 3D-printable jewelry. 
-*Tags: Python, Blender API, Generative AI, Computational Geometry*
-
 ### [Aegis: Over-Engineered Home Lab](https://github.com/Puiutmic/aegis-infrastructure)
 My private cloud infrastructure running on legacy hardware. This project focuses on resource optimization, zero-trust networking, and full-stack observability.
-*Tags: Docker, Linux, Tailscale, Prometheus, Grafana*
+> *Tags: Docker, Linux, Tailscale, Prometheus, Grafana*
+
+### [Liveness Pulse: Real-Time Video Integrity](https://github.com/PetcuDavid/Liveness-Pulse-PoC)
+A Proof of Concept for deepfake detection using frequency domain analysis. Instead of passive detection, it verifies video stream integrity through FFT (Fast Fourier Transform) to monitor signal energy stability.
+> *Tags: Python, OpenCV, Signal Processing, Computer Vision, FFT*
+
+### [PRISM: Pipeline for Ranked Intelligent Search & Matching](https://github.com/PetcuDavid/PRISM-Pipeline-for-Ranked-Intelligent-Search-Matching)
+A high-performance, multi-stage retrieval system designed to scale intelligent search. It balances compute costs by using a tiered architecture: Hard Filters -> BM25 -> Vector Embeddings -> LLM Re-ranking.
+> *Tags: Python, LLMs (Gemma), Vector Search, Information Retrieval, Scikit-learn*
 
 ### [Scalable Logo Clustering Engine](https://github.com/Puiutmic/Scalable-Logo-Clustering-Engine)
 An asynchronous data pipeline designed to scrape brand assets and group them by visual similarity.
+> *Tags: Python, Asyncio, Computer Vision, Unsupervised Learning, Data Engineering*
 
 ### [Jewelry ERP: SQL Analytics](https://github.com/Puiutmic/jewelry-erp-sql-analytics)
 A deep dive into database architecture for a luxury manufacturing business. It includes automated price auditing, ROI analytics, and supply chain management.
-*Tags: Oracle SQL, PL/SQL, Database Design, Business Intelligence*
+> *Tags: Oracle SQL, PL/SQL, Database Design, Business Intelligence*
 
 ### [ASE GradeWatcher: Real-Time Academic Alerts](https://github.com/Puiutmic/ASE-GradeWatcher)
 An automation tool that monitors the ASE student portal for grade updates. It features secure session handling and instant notifications, turning manual checks into real-time data streams.
-*Tags: Python, Web Scraping, DevSecOps, Automation*
+> *Tags: Python, Web Scraping, DevSecOps, Automation*
+
+### [AurumBit: Generative Design Engine](https://github.com/Puiutmic/AurumBit-Generative-Engine) (Work In Progress)
+A bridge between algorithmic geometry and luxury design. I'm building a Python-based engine (Blender API) that translates natural language prompts into 3D-printable jewelry. 
+> *Tags: Python, Blender API, Generative AI, Computational Geometry*
 
 ---
 
@@ -33,7 +42,7 @@ An automation tool that monitors the ASE student portal for grade updates. It fe
 * **David-Eugen Petcu** – [@PetcuDavid](https://github.com/PetcuDavid)
 * **Dorian-Alexandru Pais** – [@MrHusku](https://github.com/MrHusku)
 * **George-Daniel Păiuș** – [@Paius-George](https://github.com/Paius-George)
- 
+> Find it here [here](https://github.com/PetcuDavid/Guns-vs-Butter-Macroeconomics) 
 ---
 
 ### Tech Stack & Tools
