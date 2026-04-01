@@ -1,6 +1,6 @@
 # Hi, I'm David
 
-I am a **Systems Architect in training** and a student of **Economic Cybernetics** at ASE Bucharest. I explore the intersection of data engineering, infrastructure, and generative design. My goal is to build systems that are not just functional, but scalable and mathematically optimized.
+Second Year **Economic Cybernetics** Student at ASE Bucharest, building at the intersection of infrastructure engineering and data systems. I architect solutions end-to-end — from private cloud deployments to async data pipelines — targeting a career in *Systems Architect*, *AI Systems*, or *MLOps*. Școala de Valori stART 2024 scholarship recipient. Co-authored a quantitative macroeconomic research paper on defense expenditure and capital formation across 7 Eastern Flank NATO states.
 
 ---
 
@@ -25,6 +25,15 @@ A deep dive into database architecture for a luxury manufacturing business. It i
 An automation tool that monitors the ASE student portal for grade updates. It features secure session handling and instant notifications, turning manual checks into real-time data streams.
 *Tags: Python, Web Scraping, DevSecOps, Automation*
 
+---
+
+## Current Research
+#### The 'Guns vs. Butter' Dilemma in the New Era of Global Insecurity: The Impact of Rearmament on Capital Formation in NATO's Eastern Flank States
+#### *2nd Place at the Annual Student Scientific Conference (ASE Bucharest, 2026) - Economic Cybernetics Section*
+* **David-Eugen Petcu** – [@PetcuDavid](https://github.com/PetcuDavid)
+* **Dorian-Alexandru Pais** – [@MrHusku](https://github.com/MrHusku)
+* **George-Daniel Păiuș** – [@Paius-George](https://github.com/Paius-George)
+ 
 ---
 
 ### Tech Stack & Tools
