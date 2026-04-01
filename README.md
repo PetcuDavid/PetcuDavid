@@ -10,8 +10,8 @@ Second Year **Economic Cybernetics** Student at ASE Bucharest, building at the i
 My private cloud infrastructure running on legacy hardware. This project focuses on resource optimization, zero-trust networking, and full-stack observability.
 > *Tags: Docker, Linux, Tailscale, Prometheus, Grafana*
 
-### [Liveness Pulse: Real-Time Video Integrity](https://github.com/PetcuDavid/Liveness-Pulse-PoC)
-A Proof of Concept for deepfake detection using frequency domain analysis. Instead of passive detection, it verifies video stream integrity through FFT (Fast Fourier Transform) to monitor signal energy stability.
+### [Liveness Pulse: Real-Time Video Integrity](https://github.com/PetcuDavid/Liveness-Pulse-PoC) (PoC)
+A Proof of Concept for **deepfake detection** using frequency domain analysis. Instead of passive detection, it verifies video stream integrity through FFT (Fast Fourier Transform) to monitor signal energy stability.
 > *Tags: Python, OpenCV, Signal Processing, Computer Vision, FFT*
 
 ### [PRISM: Pipeline for Ranked Intelligent Search & Matching](https://github.com/PetcuDavid/PRISM-Pipeline-for-Ranked-Intelligent-Search-Matching)
