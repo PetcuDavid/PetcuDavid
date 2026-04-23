@@ -47,10 +47,11 @@ A bridge between algorithmic geometry and luxury design. I'm building a Python-b
 
 ### Tech Stack & Tools
 
-- **Languages:** C++, C#, Python, SQL (Oracle), Bash
-- **Infrastructure:** Docker & Docker Compose, Linux Administration, Networking (VPN/SD-WAN)
-- **Data & AI:** Data Engineering, Generative AI Workflows, Statistical Analysis
-- **Creative:** Computational Design, Photo/Video Performance "Scoala de Valori" Scholarship 2024
+- **AI/ML:** LLMs (Gemma, Gemini), Vector Search, RAG, BM25, Scikit-learn, PySpark
+- **Infrastructure & MLOps:**	 Kubernetes (K8s), Docker, Ansible, GitOps (Flux), Linux (Ubuntu Server), Pi-hole, Tailscale
+- **Programming:** Python, C++, Bash, Oracle SQL, R, C#
+- **Observability:** Prometheus, Grafana, TIG Stack
+
 
 ---
 
