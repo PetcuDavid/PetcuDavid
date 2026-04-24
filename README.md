@@ -1,6 +1,6 @@
 # Hi, I'm David
 
-Second Year **Economic Cybernetics** Student at ASE Bucharest, building at the intersection of infrastructure engineering and data systems. I architect solutions end-to-end — from private cloud deployments to async data pipelines — targeting a career in *Systems Architect*, *AI Systems*, or *MLOps*. Școala de Valori stART 2024 scholarship recipient. Co-authored a quantitative macroeconomic research paper on defense expenditure and capital formation across 7 Eastern Flank NATO states.
+2nd-year Economic Cybernetics @ ASE Bucharest | MLOps & AI Systems | Building: PRISM (hybrid retrieval) · Aegis (zero-trust infra) · Liveness-Pulse (deepfake detection)
 
 ---
 
@@ -47,7 +47,7 @@ A bridge between algorithmic geometry and luxury design. I'm building a Python-b
 
 ### Tech Stack & Tools
 
-- **AI/ML:** LLMs (Gemma, Gemini), Vector Search, RAG, BM25, Scikit-learn, PySpark
+- **AI/ML:** LLMs (Gemma, Gemini), Vector Search, BM25, Scikit-learn, PySpark
 - **Infrastructure & MLOps:**	 Kubernetes (K8s), Docker, Ansible, GitOps (Flux), Linux (Ubuntu Server), Pi-hole, Tailscale
 - **Programming:** Python, C++, Bash, Oracle SQL, R, C#
 - **Observability:** Prometheus, Grafana, TIG Stack
