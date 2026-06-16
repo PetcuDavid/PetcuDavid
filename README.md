@@ -30,10 +30,6 @@ A deep dive into database architecture for a luxury manufacturing business. It i
 An automation tool that monitors the ASE student portal for grade updates. It features secure session handling and instant notifications, turning manual checks into real-time data streams.
 > *Tags: Python, Web Scraping, DevSecOps, Automation*
 
-### [AurumBit: Generative Design Engine](https://github.com/PetcuDavid/AurumBit-Generative-Engine) (Work In Progress)
-A bridge between algorithmic geometry and luxury design. I'm building a Python-based engine (Blender API) that translates natural language prompts into 3D-printable jewelry. 
-> *Tags: Python, Blender API, Generative AI, Computational Geometry*
-
 ---
 
 ## Current Research
