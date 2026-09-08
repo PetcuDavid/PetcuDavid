@@ -1,58 +1,128 @@
-# Hi, I'm David
+# David-Eugen Petcu
 
-2nd-year Economic Cybernetics @ ASE Bucharest | MLOps & AI Systems | Building: PRISM (hybrid retrieval) · Aegis (zero-trust infra) · Liveness-Pulse (deepfake detection)
+**Software Engineering · Systems · Information Retrieval · AI/ML**
+
+B.Sc. candidate in **Economic Cybernetics at the Bucharest University of Economic Studies (ASE)**  
+Expected graduation: **July 2027**
+
+I build software around performance, search & ranking, infrastructure, and applied AI — with a focus on understanding the systems underneath rather than treating them as black boxes.
+
+Currently:
+- **Incoming Business Platforms Intern @ Endava**
+- **Technical Lead @ Bitdefender Academy**
+- Based in **Bucharest, Romania**
 
 ---
 
-## What I'm working on
-
-### [Aegis: Over-Engineered Home Lab](https://github.com/PetcuDavid/aegis-infrastructure)
-My private cloud infrastructure running on legacy hardware. This project focuses on resource optimization, zero-trust networking, and full-stack observability.
-> *Tags: Docker, Linux, Tailscale, Prometheus, Grafana*
-
-### [Liveness Pulse: Real-Time Video Integrity](https://github.com/PetcuDavid/Liveness-Pulse-PoC) (PoC)
-A Proof of Concept for **deepfake detection** using frequency domain analysis. Instead of passive detection, it verifies video stream integrity through FFT (Fast Fourier Transform) to monitor signal energy stability.
-> *Tags: Python, OpenCV, Signal Processing, Computer Vision, FFT*
-
-### [PRISM: Pipeline for Ranked Intelligent Search & Matching](https://github.com/PetcuDavid/PRISM-Pipeline-for-Ranked-Intelligent-Search-Matching)
-A high-performance, multi-stage retrieval system designed to scale intelligent search. It balances compute costs by using a tiered architecture: Hard Filters -> BM25 -> Vector Embeddings -> LLM Re-ranking.
-> *Tags: Python, LLMs (Gemma), Vector Search, Information Retrieval, Scikit-learn*
+## Featured Projects
 
 ### [Scalable Logo Clustering Engine](https://github.com/PetcuDavid/Scalable-Logo-Clustering-Engine)
-An asynchronous data pipeline designed to scrape brand assets and group them by visual similarity.
-> *Tags: Python, Asyncio, Computer Vision, Unsupervised Learning, Data Engineering*
 
-### [Jewelry ERP: SQL Analytics](https://github.com/PetcuDavid/jewelry-erp-sql-analytics)
-A deep dive into database architecture for a luxury manufacturing business. It includes automated price auditing, ROI analytics, and supply chain management.
-> *Tags: Oracle SQL, PL/SQL, Database Design, Business Intelligence*
+**C++20 · Python · asyncio · DSU · Multithreading · CMake · GitHub Actions**
 
-### [ASE GradeWatcher: Real-Time Academic Alerts](https://github.com/PetcuDavid/ASE-GradeWatcher)
-An automation tool that monitors the ASE student portal for grade updates. It features secure session handling and instant notifications, turning manual checks into real-time data streams.
-> *Tags: Python, Web Scraping, DevSecOps, Automation*
+A scalable pipeline for extracting web assets and clustering visually similar logos using perceptual hashing.
 
----
+I moved the CPU-bound similarity stage from Python to C++20, using **64-bit Hamming distance and Disjoint Set Union**, achieving a **67× speedup** over the Python baseline on multi-million-comparison benchmarks.
 
-## Current Research
-#### The 'Guns vs. Butter' Dilemma in the New Era of Global Insecurity: The Impact of Rearmament on Capital Formation in NATO's Eastern Flank States
-#### *2nd Place at the Annual Student Scientific Conference (ASE Bucharest, 2026) - Economic Cybernetics Section*
-* **David-Eugen Petcu** – [@PetcuDavid](https://github.com/PetcuDavid)
-* **Dorian-Alexandru Pais** – [@MrHusku](https://github.com/MrHusku)
-* **George-Daniel Păiuș** – [@Paius-George](https://github.com/Paius-George)
-> Find it here [here](https://github.com/PetcuDavid/Guns-vs-Butter-Macroeconomics) 
----
+The project also includes:
 
-### Tech Stack & Tools
+- bounded-concurrency asynchronous asset extraction
+- multithreaded similarity evaluation
+- differential testing against the Python reference implementation
+- GoogleTest / CTest
+- AddressSanitizer and UndefinedBehaviorSanitizer
+- cross-platform GitHub Actions CI
 
-- **AI/ML:** LLMs (Gemma, Gemini), Vector Search, BM25, Scikit-learn, PySpark
-- **Infrastructure & MLOps:**	 Kubernetes (K8s), Docker, Ansible, GitOps (Flux), Linux (Ubuntu Server), Pi-hole, Tailscale
-- **Programming:** Python, C++, Bash, Oracle SQL, R, C#
-- **Observability:** Prometheus, Grafana, TIG Stack
-
+**Focus:** algorithms, performance engineering, concurrency, testing, systems programming
 
 ---
 
-### Find me here!
-- **LinkedIn:** [https://www.linkedin.com/in/david-petcu/]
-- **Email:** [petcudavid504@gmail.com]
+### [PRISM — Hybrid Search & Ranking](https://github.com/PetcuDavid/PRISM-Pipeline-for-Ranked-Intelligent-Search-Matching)
 
-*"Turning bits into gold through code and cybernetics."*
+**Python · BM25 · Vector Search · Cross-Encoder Reranking · LLMs · scikit-learn**
+
+A multi-stage information retrieval pipeline designed to improve ranking quality while controlling expensive model usage.
+
+PRISM combines:
+
+`Hard Filters → BM25 / Vector Retrieval → Cross-Encoder Reranking → Confidence Routing → LLM`
+
+The pipeline uses three-state filtering to handle incomplete data and reranks the top candidates with a cross-encoder, reducing LLM calls by approximately **15×** compared with routing every candidate through the model.
+
+**Focus:** information retrieval, ranking systems, semantic search, ML system design
+
+---
+
+### [Aegis — Private Cloud Infrastructure & Automation](https://github.com/PetcuDavid/Aegis-Infrastructure)
+
+**Linux · Docker · Ansible · Bash · Networking · Security · Prometheus · Grafana**
+
+A resource-efficient private cloud built on legacy hardware and automated through infrastructure-as-code.
+
+The environment runs multiple containerized services with automated provisioning and hardened networking, while exposing **0 public inbound ports**.
+
+**Focus:** Linux systems, infrastructure automation, networking, security, observability
+
+---
+
+## Experience
+
+**Endava** — Incoming Business Platforms Intern  
+`Sep 2026 – Dec 2026`
+
+**Bitdefender Academy** — Technical Lead, Student Venture Program  
+`Apr 2026 – Oct 2026`
+
+Built embedded and application prototypes across **C++ / ESP32, C# and JavaScript**, and owned technical feasibility and architecture for a hardware-software product.
+
+**Systematic Academy** — System Engineering Apprenticeship  
+`Mar 2026 – Apr 2026`
+
+Worked with **Kubernetes, Flux and GitOps workflows** and integrated tooling for structured LLM access to internal documentation.
+
+---
+
+## Other Work
+
+### [Liveness Pulse](https://github.com/PetcuDavid/Liveness-Pulse-PoC)
+Proof of concept exploring video-stream integrity and frequency-domain signal analysis using Python, OpenCV and FFT.
+
+### [ASE GradeWatcher](https://github.com/PetcuDavid/ASE-GradeWatcher)
+Python automation for detecting new academic results and sending real-time notifications.
+
+### [Jewelry ERP — SQL Analytics](https://github.com/PetcuDavid/jewelry-erp-sql-analytics)
+Oracle SQL / PL/SQL project covering relational database design, analytics and business logic.
+
+---
+
+## Research
+
+🥈 **2nd Place — Annual Student Scientific Conference, ASE Bucharest, 2026**
+
+**The "Guns vs. Butter" Dilemma in the New Era of Global Insecurity:  
+The Impact of Rearmament on Capital Formation in NATO's Eastern Flank States**
+
+[View the research project →](https://github.com/PetcuDavid/Guns-vs-Butter-Macroeconomics)
+
+---
+
+## Technical Toolbox
+
+**Programming**  
+`C++` · `Python` · `C` · `JavaScript` · `C#` · `SQL` · `Bash`
+
+**Systems & Infrastructure**  
+`Linux` · `Docker` · `Kubernetes` · `Ansible` · `Git` · `GitHub Actions` · `Flux`
+
+**AI / ML / Information Retrieval**  
+`BM25` · `Vector Search` · `Cross-Encoder Reranking` · `RAG` · `LLMs` · `scikit-learn`
+
+**Concepts I work with**  
+`Data Structures & Algorithms` · `Concurrency` · `Information Retrieval` · `Networking` · `Security` · `CI/CD`
+
+---
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/david-petcu/) ·
+[Email](mailto:petcudavid504@gmail.com)
